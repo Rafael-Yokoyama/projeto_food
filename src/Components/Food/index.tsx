@@ -43,8 +43,8 @@ const Foods = () => {
           placeholder="Type meal/ingredient name..."
           onChange={(event) => setCategoryName(event?.target.value)}
         />
-      </p>
-
+      </p> 
+   
       <ul>
         {category?.map((i: CategoriesType) => (
           <div key={i.idCategory} className="catalog">
@@ -54,6 +54,7 @@ const Foods = () => {
           </div>
         ))}
       </ul>
+     
 
       <h2>
         Selected category: <strong>{categoryName}</strong>

@@ -117,6 +117,7 @@ body {
 }
 
 .food-beer-list ul {
+
   font-style: italic;
   padding: 0;
   display: flex;
@@ -127,6 +128,7 @@ body {
 }
 
 .food-beer-list li {
+
   padding: 0;
   list-style: none;
   cursor: pointer;
@@ -135,4 +137,17 @@ body {
 
 .beer-list li:hover {
   color: #000;
+}
+
+
+@media (max-width:900px){
+  .food-beer-list ul {
+  height:100px;
+  width: 200px;
+    
+ 
+   
+  }
+
+      
 }
